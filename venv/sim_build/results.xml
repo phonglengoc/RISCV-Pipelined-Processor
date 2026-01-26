@@ -1,0 +1,14 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="12345" />
+    <testcase name="test2DivDependent" classname="testbench" file="/mnt/d/SoC_lab/assignment/testbench.py" lineno="430" time="0.0408627986907959" sim_time_ns="100.001" ratio_time="2447.238153135229">
+      <failure message="Test failed with RANDOM_SEED=12345" />
+    </testcase>
+    <testcase name="testDivNonDiv" classname="testbench" file="/mnt/d/SoC_lab/assignment/testbench.py" lineno="444" time="0.026058673858642578" sim_time_ns="68.001" ratio_time="2609.534175410346">
+      <failure message="Test failed with RANDOM_SEED=12345" />
+    </testcase>
+    <testcase name="testDivUse" classname="testbench" file="/mnt/d/SoC_lab/assignment/testbench.py" lineno="460" time="0.026546239852905273" sim_time_ns="72.00099999999998" ratio_time="2712.2861994377727">
+      <failure message="Test failed with RANDOM_SEED=12345" />
+    </testcase>
+  </testsuite>
+</testsuites>
